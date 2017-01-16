@@ -1,0 +1,23 @@
+img {
+  height: 100%;
+  width: auto;
+  margin: 5px;
+}
+
+.img {
+  height: 100%;
+  width: auto;
+  display: inline-block;
+}
+
+.slider {
+  height: 600px;
+  width: 90vw;
+  margin: auto;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+}

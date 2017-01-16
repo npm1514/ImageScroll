@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="templates">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body ng-controller="mainCtrl">
+    <div class="slider">
+      <div class="img" ng-repeat="pic in pics track by $index">
+        <img ng-src="{{pics[$index]}}"/>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="mainCtrl.js"></script>
+  </body>
+</html>
